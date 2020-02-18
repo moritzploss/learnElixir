@@ -1,0 +1,5 @@
+IO.puts Float.to_string(5.0)
+IO.puts Application.get_env(:basic, :foo)
+IO.puts System.cwd()
+IO.puts System.cmd("atom", [])
+IO.puts Path.extname("foo.exs")
