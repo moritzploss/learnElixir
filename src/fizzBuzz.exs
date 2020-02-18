@@ -13,10 +13,4 @@ runFizzBuzz = fn
   )
 end
 
-IO.puts runFizzBuzz.(10)
-IO.puts runFizzBuzz.(11)
-IO.puts runFizzBuzz.(12)
-IO.puts runFizzBuzz.(13)
-IO.puts runFizzBuzz.(14)
-IO.puts runFizzBuzz.(15)
-IO.puts runFizzBuzz.(16)
+IO.inspect Enum.map(1..100, runFizzBuzz)
